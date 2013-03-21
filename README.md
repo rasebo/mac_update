@@ -1,7 +1,7 @@
 mac_update
 ==========
 
-Script for changing MAC addreses on boot for OSX 10.8
+Script for randomly changing MAC addreses on boot for OSX 10.8 while keeping a custom OUI.
 
 Move com.rasebo.changemac.plist to /Library/LaunchDaemons and change the owner to root:wheel. 
 Run launchctl load -w /Library/LaunchDaemons/com.rasebo.changemac.plist && launchctl start com.rasebo.changemac
